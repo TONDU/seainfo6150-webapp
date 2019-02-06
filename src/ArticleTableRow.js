@@ -24,13 +24,19 @@ class ArticleTableRow extends React.Component {
     else {
       selectedStatus = 'No';
     }
-
+    const { title, date, author, shortText } = this.props;
     // paste this onClick handler into your checkbox;
     // you should not have to modify this code in any way
     // onClick={this.onClick.bind(this)}
     //
     return (
-      <div>Replace this div with your table row HTML</div>
+      <tr>
+        <td><input type="checkbox" onClick={this.onClick.bind(this)} /></td>
+        <td>{selectedStatus}</td>
+        <td><a rel={this.author} href={"/author/" + this.author}>{author}</a></td>
+        <td><time datetime={this.date}>{date}</time></td>
+        <td>{shortText}</td>
+      </tr>
     );
   }
 
