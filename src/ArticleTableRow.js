@@ -34,7 +34,7 @@ class ArticleTableRow extends React.Component {
         <td><input type="checkbox" onClick={this.onClick.bind(this)} /></td>
         <td>{selectedStatus}</td>
         <td><a rel={this.author} href={"/author/" + this.author}>{author}</a></td>
-        <td><time datetime={this.date}>{date}</time></td>
+        <td><date>{date}</date></td>
         <td>{shortText}</td>
       </tr>
     );
