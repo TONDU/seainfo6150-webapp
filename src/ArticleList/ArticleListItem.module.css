@@ -1,0 +1,34 @@
+ul{
+  list-style:none;
+  padding: 0;
+}
+.list_item{
+  margin: 10px auto;
+  padding: 0;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border: 2px solid red;
+  line-height: 30px;
+  width:90%;
+  background-color: whitesmoke;
+}
+.titleAndText {
+  text-align: left;
+}
+.authorAndDate {
+  text-align: right;
+}
+#title{
+  color: red;
+}
+#shorttext{
+  font-family: "Oswald", "Helvetica Neue", "Arial";
+}
+#author{
+  font-style: italic;
+  font-family: "Oswald", "Helvetica Neue", "Arial";
+}
+#date{
+  font-family: "Oswald", "Helvetica Neue", "Arial";
+  font-weight:bold;
+}
