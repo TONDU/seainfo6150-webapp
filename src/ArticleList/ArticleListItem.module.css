@@ -11,9 +11,14 @@ ul{
   line-height: 30px;
   width:90%;
   background-color: whitesmoke;
+  background-image: linear-gradient(to right,red,5%,whitesmoke);
+}
+.image {
+  float: left;
 }
 .titleAndText {
   text-align: left;
+  margin-left: 20%;
 }
 .authorAndDate {
   text-align: right;

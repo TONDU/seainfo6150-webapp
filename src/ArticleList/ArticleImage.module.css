@@ -1,0 +1,18 @@
+
+
+.article_image {
+    display: inline-block;
+    text-align: left;
+    width: 150px;
+    padding: 15px;
+    float: left;
+}
+
+img {
+    width: 220px;
+    height: auto;
+    border: 10px solid #C90813;
+    border-radius: 90px/60px;
+    box-shadow: 0px 6px 8px gray;
+
+}

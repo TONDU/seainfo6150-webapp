@@ -17,6 +17,7 @@ const ArticleList = ({ articles }) => (
                   year={article.pubYear}
                   author={article.author}
                   shortText={article.shortText}
+                  url={article.image._url}
                 />
               );
             })
@@ -26,9 +27,8 @@ const ArticleList = ({ articles }) => (
       </div>
       // this iterates through the articles JSON and
       // calls your ArticleListItem component for each article
-
-
 );
+
 
 ArticleList.propTypes = {
   articles: PropTypes.object.isRequired
