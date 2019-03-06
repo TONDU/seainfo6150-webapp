@@ -3,37 +3,38 @@ ul{
   padding: 0;
 }
 .list_item{
-  margin: 10px auto;
-  padding: 0;
+  margin: 10px;
+  padding: 10px;
   padding-top: 5px;
   padding-bottom: 5px;
   border: 2px solid red;
-  line-height: 30px;
-  width:90%;
   background-color: whitesmoke;
-  background-image: linear-gradient(to right,red,5%,whitesmoke);
-}
-.image {
-  float: left;
+  background-image: linear-gradient(to right,#CC0000,0.1%,whitesmoke);
+  display: inline;
+  float:left;
 }
 .titleAndText {
   text-align: left;
-  margin-left: 20%;
 }
 .authorAndDate {
   text-align: right;
 }
+
 #title{
   color: red;
+  font-family: "Times New Roman", Times, serif;
 }
-#shorttext{
-  font-family: "Oswald", "Helvetica Neue", "Arial";
+#shortText{
+  font-family: "Times New Roman", Times, serif;
+  font-size: 12px;
 }
 #author{
   font-style: italic;
-  font-family: "Oswald", "Helvetica Neue", "Arial";
+  font-family: "Times New Roman", Times, serif;
+  font-size: 12px;
 }
 #date{
-  font-family: "Oswald", "Helvetica Neue", "Arial";
+  font-family: "Times New Roman", Times, serif;
   font-weight:bold;
+  font-size: 12px;
 }

@@ -1,12 +1,15 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import ArticleListItem from './ArticleListItem';
+import RedHeader from '../RedHeader';
+import RedFooter from '../RedFooter';
 import styles from './ArticleList.module.css';
 
 const ArticleList = ({ articles }) => (
       <div className={styles.background}>
+        <RedHeader />
         <div className={styles.main}>
-          <ul>
+          <ul className={styles.ul_style}>
           {
               Object.values(articles).map(article => {
                 return (
@@ -24,6 +27,7 @@ const ArticleList = ({ articles }) => (
           }
           </ul>
         </div>
+        <RedFooter />
       </div>
       // this iterates through the articles JSON and
       // calls your ArticleListItem component for each article

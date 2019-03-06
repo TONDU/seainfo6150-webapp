@@ -15,7 +15,7 @@ class ArticleListItem  extends React.Component{
           <ArticleImage url={this.props.url} />
         </div>
         <div className={styles.titleAndText}>
-          <h2 id={styles.title}>{this.props.title}</h2>
+          <h3 id={styles.title}>{this.props.title}</h3>
           <p id={styles.shortText}>{this.props.shortText}</p>
         </div>
         <div className={styles.authorAndDate}>
