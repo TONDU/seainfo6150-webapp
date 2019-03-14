@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import ArticleListItem from './ArticleListItem';
 import RedHeader from '../RedHeader';
 import RedFooter from '../RedFooter';
-import styles from './ArticleList(Assignment8).module.css';
+import styles from './ArticleList(Assignment7).module.css';
 
 const ArticleList = ({ articles }) => (
       <div className={styles.background}>
